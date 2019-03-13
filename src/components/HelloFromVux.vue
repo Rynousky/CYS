@@ -1,6 +1,6 @@
 <template>
   <div>
-      <x-header :right-options="{showMore: true}" :left-options="{showBack: false}">女流66</x-header>
+      <x-header :right-options="{showMore: true}" :left-options="{showBack: false}">wle</x-header>
       <swiper loop auto :list="demo06_list" :index="demo06_index" ></swiper>
     <tabbar>
       <tabbar-item selected link="http://www.nvliu.me" >
@@ -15,9 +15,9 @@
         <img slot="icon" src="../assets/录像.png" >
         <span slot="label">录像</span>
       </tabbar-item>
-      <tabbar-item badge="2">
+      <tabbar-item   >
         <img slot="icon" src="../assets/关注.png">
-        <span slot="label">关注</span>
+        <span slot="label">登陆</span>
       </tabbar-item>
     </tabbar>
   </div>
