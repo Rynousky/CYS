@@ -20,11 +20,12 @@
         <span slot="label">登陆</span>
       </tabbar-item>
     </tabbar>
+    <panel :header="推荐" :footer="footer" :list="list" :type="type"></panel>
   </div>
 </template>
 
 <script>
-import { Tabbar, TabbarItem, Group, Cell, XHeader, Swiper } from 'vux'
+import { Tabbar, TabbarItem, Group, Cell, XHeader, Swiper, Panel } from 'vux'
 const baseList = [{
   url: 'javascript:',
   img: 'https://ww1.sinaimg.cn/large/663d3650gy1fq66vvsr72j20p00gogo2.jpg',
@@ -53,7 +54,8 @@ export default {
     Tabbar,
     TabbarItem,
     Group,
-    Cell
+    Cell,
+    Panel
   },
   data () {
     return {

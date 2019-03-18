@@ -12,11 +12,6 @@ const routes = [{
   path: '/',
   component: Home
 }]
-const routes = [{
-  path: '/DENGLU',
-  component: DENGLU
-}]
-
 const router = new VueRouter({
   routes
 })
